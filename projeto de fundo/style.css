@@ -1,0 +1,12 @@
+@charset "UTF-08";
+
+.quadrados{
+    display: inline-block;
+    background-image: url(imagens/pattern004.png);
+    border: solid 4px black;
+    border-radius: 12px;
+    height: 250px;
+    width: 250px;
+    margin: 2px;
+  
+}
