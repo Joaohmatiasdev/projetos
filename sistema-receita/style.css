@@ -2,35 +2,27 @@
 
 
 
-font-face{
-      font-family: 'aeonik';   
-      src: url(font/aeonik-trial.zip);
-      font-weight: normal
-};
 
 :root{
     --corfundo:#73412F;
     --corletra:#F2E0BD;
     --corfundobody:#FFEDC5;
 
-
-    --fonteh1:'aeonik'
 }
 body{
-    background-color: var(--corfundobody);
+    background-color:var(--corfundobody);
     margin: 0px;
     padding: 0px;
 }
 header{
     background-color: var(--corfundo);
-   
-   
-}
-
-header > div{
-    min-height: 150px;
+    margin: 2px;
     padding-top: 40px;
-       
-       border: 10px rgb(0, 0, 0);
-       border-radius: 10px solid rgb(39, 37, 37);
+    border-radius: 10px;
+    color: var(--corletra);
+    text-align: center;
+    padding-bottom: 25px;
+}
+header > h2{
+    padding-bottom: 7px;
 }
